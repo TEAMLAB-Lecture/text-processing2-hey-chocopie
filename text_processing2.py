@@ -80,5 +80,5 @@ def to_camel_case(underscore_str):
             a[i] = a[i].lower()
             if i > 0 :
                 a[i] = a[i].capitalize()
-    camelcase_str = "".join(a)
-    return camelcase_str
+        camelcase_str = ''.join(a)
+        return camelcase_str
